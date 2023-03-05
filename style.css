@@ -8,10 +8,11 @@
 .header{
     min-height: 100vh;
     width: 100%;
+    position: relative;
     /*
     background-position: center;
     background-size: cover;
-    position: relative;
+    
     */
 }
 nav{
@@ -20,9 +21,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    width: 150px;
-}
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -64,11 +63,17 @@ nav img{
 }
 .text-box h1{
     font-size: 64px;
+    margin: 10px 0 40px;
+    color: #004D12;
 }
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #004D12;
+}
+.text-box ul{
+    list-style: none;
+    position: relative;
 }
 .hero-btn{
     display: inline-block;
@@ -82,7 +87,8 @@ nav img{
     font-style: italic;
 }
 
-@media(max-width: 700px) { /*TODO: fikse responsiv*/
+/*
+@media(max-width: 700px) { TODO: fikse responsiv
     .text-box h1{
         font-size: 24px;
     }
@@ -99,4 +105,53 @@ nav img{
           text-align: left;
           z-index: 0;
     }
+}
+*/
+
+
+/*----------projects--------*/
+
+.projects{
+    width: 90%;
+    margin: left;
+    text-align: left;
+    padding-top: 100px;
+}
+h1{
+    font-size: 48px;
+    color: #004D12;
+    padding: 10px;
+    margin-left: 10px;
+}
+h2{
+    font-size: 36px;
+    color: #004D12;
+    padding: 10px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 16px;
+    color: #004D12;
+    padding: 10px;
+    margin-left: 10px;
+    font-style: italic;
+}
+p{
+    color: #004D12;
+    font-size: 14px;
+    padding: 10px;
+    left: 50%;
+    margin-left: 10px;
+}
+.contact-btn{
+    display: inline-block;
+    /*text-decoration: none;*/
+    color: #004D12;
+    position: relative;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    font-style: italic;
+    color: #FAE7CB;
+    background-color: #004D12;
 }
