@@ -86,6 +86,18 @@ nav{
 .hero-btn:hover{
     font-style: italic;
 }
+.back-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #004D12;
+    position: relative;
+    cursor: pointer;
+}
+.back-btn:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+
 
 /*
 @media(max-width: 700px) { TODO: fikse responsiv
