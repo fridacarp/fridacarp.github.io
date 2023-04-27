@@ -68,23 +68,27 @@ nav{
     transform: translate(-50%, -50%);
     text-align: left;
     padding-bottom: 20px;
+    background-color: transparent;
 }
 
 .text-box h1{
     font-size: 64px;
     margin: 10px 0 40px;
     color: #004D12;
+    background-color: transparent;
 }
 
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #004D12;
+    background-color: transparent;
 }
 
 .text-box ul{
     list-style: none;
     position: relative;
+    background-color: transparent;
 }
 
 .hero-btn{
@@ -114,6 +118,10 @@ p{
 .project-list{
     margin-left: 50px;
     list-style: none;
+}
+
+.project-list li{
+    margin-bottom: 10px;
 }
 
 /*
