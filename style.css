@@ -15,11 +15,19 @@
     
     */
 }
+
+body{
+    padding-top: 70px;
+}
+
 nav{
     display: flex;
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .nav-links{
@@ -60,6 +68,7 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
+    margin-bottom: 20px;
 }
 .text-box h1{
     font-size: 64px;
@@ -86,18 +95,14 @@ nav{
 .hero-btn:hover{
     font-style: italic;
 }
-.back-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #004D12;
-    position: relative;
-    cursor: pointer;
-}
-.back-btn:hover{
-    font-style: italic;
-    text-decoration: underline;
-}
 
+.horizontal-list{
+    display: flex;
+    flex-direction: row;
+}
+.horizontal-list li{
+    display: inline;
+}
 
 /*
 @media(max-width: 700px) { TODO: fikse responsiv
@@ -120,55 +125,6 @@ nav{
 }
 */
 
-
-/*----------projects--------*/
-
-.projects{
-    width: 90%;
-    margin: left;
-    text-align: left;
-    padding-top: 100px;
-}
-h1{
-    font-size: 48px;
-    color: #004D12;
-    padding: 10px;
-    margin-left: 10px;
-}
-h2{
-    font-size: 36px;
-    color: #004D12;
-    padding: 10px;
-    margin-left: 10px;
-}
-h3{
-    font-size: 16px;
-    color: #004D12;
-    padding: 10px;
-    margin-left: 10px;
-    font-style: italic;
-}
-p{
-    color: #004D12;
-    font-size: 14px;
-    padding: 10px;
-    left: 50%;
-    margin-left: 10px;
-}
-.contact-btn{
-    display: inline-block;
-    /*text-decoration: none;*/
-    color: #004D12;
-    position: relative;
-    cursor: pointer;
-}
-.contact-btn:hover{
-    font-style: italic;
-    color: #FAE7CB;
-    background-color: #004D12;
-}
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
