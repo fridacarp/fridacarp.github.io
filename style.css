@@ -2,18 +2,15 @@
     margin: 0;
     padding: 0;
     background-color: #FAE7CB;
-    /*font-family: 'EB Garamond', serif;*/
     font-family: 'Roboto Mono', monospace;
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    /*
-    background-position: center;
-    background-size: cover;
-    
-    */
+    background-color: transparent;
+    padding-bottom: 50px;
 }
 
 body{
@@ -34,17 +31,18 @@ nav{
     flex: 1;
     text-align: right;
 }
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 16px;
     position: relative;
 }
+
 .nav-links ul li a{
     color: #004D12;
     text-decoration: none;
     font-size: 20px;
-    
 }
 
 .nav-links ul li::after{
@@ -56,10 +54,11 @@ nav{
     margin: auto;
     transition: 0.2s;
 }
+
 .nav-links ul li:hover::after{
     width: 100%;
-
 }
+
 .text-box{
     width: 90%;
     color: #004D12;
@@ -70,20 +69,24 @@ nav{
     text-align: left;
     margin-bottom: 20px;
 }
+
 .text-box h1{
     font-size: 64px;
     margin: 10px 0 40px;
     color: #004D12;
 }
+
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #004D12;
 }
+
 .text-box ul{
     list-style: none;
     position: relative;
 }
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
