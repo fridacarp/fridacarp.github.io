@@ -6,11 +6,11 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 500px;
+    background-color: transparent;
     width: 100%;
     position: relative;
-    background-color: transparent;
-    padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 body{
@@ -67,7 +67,7 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .text-box h1{
@@ -99,12 +99,21 @@ nav{
     font-style: italic;
 }
 
-.horizontal-list{
-    display: flex;
-    flex-direction: row;
+
+
+img{
+    margin-left: 20px;
 }
-.horizontal-list li{
-    display: inline;
+
+p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #004D12;
+}
+
+.project-list{
+    margin-left: 50px;
+    list-style: none;
 }
 
 /*
